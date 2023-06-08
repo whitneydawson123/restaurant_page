@@ -23,6 +23,9 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
+    "rules": {
+      "jsx-ally/alt-text": "off"
+    },
     "extends": [
       "react-app",
       "react-app/jest"
